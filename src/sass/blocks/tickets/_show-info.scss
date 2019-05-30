@@ -1,0 +1,12 @@
+.section-theatre__title{
+	@include font-title;
+	font-size: 20px;
+}
+
+.row.section-theatre{
+	margin-top: 20px;
+}
+
+.section-theatre__content{
+	@include font-content-black;
+}

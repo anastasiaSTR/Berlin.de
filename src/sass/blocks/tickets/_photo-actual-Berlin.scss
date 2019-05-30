@@ -1,0 +1,25 @@
+.photo-title{
+	@include title-h6;
+}
+
+
+.icons i:nth-child(1){
+	margin-left: 120px;
+
+}
+
+.icons i{
+	color:#132372;
+
+}
+
+.current-photos{
+	width: 90%;
+}
+
+.current-text{
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 10px;
+	color: #2D2A2A;
+}

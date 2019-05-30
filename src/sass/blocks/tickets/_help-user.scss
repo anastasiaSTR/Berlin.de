@@ -1,0 +1,9 @@
+.help__user{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.help__user a, .help__user p{
+	flex: 1;
+}

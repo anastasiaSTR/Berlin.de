@@ -1,0 +1,35 @@
+.title{
+	@include font-title;
+}
+.col-md-4.news-politics__item li,
+.col-md-4.news-tourismus__item li,
+.col-md-4.news-Kultur__item li,
+.col-md-4.news-actual__item li,
+.col-md-4.news-Lifestyle__item li,
+.col-md-4.news-economy__item li,
+.col-md-4.news-Shopping__item li{
+	display: inline-block;
+	width: 270px;
+	@include font-news-category;
+}
+
+
+.col-md-4.news-politics__item i,
+.col-md-4.news-tourismus__item i,
+.col-md-4.news-Kultur__item i,
+.col-md-4.news-actual__item i,
+.col-md-4.news-Lifestyle__item i,
+.col-md-4.news-economy__item i,
+.col-md-4.news-Shopping__item i,{
+	color:$bgRed;
+}
+
+.col-md-4.news-politics__item li:hover,
+.col-md-4.news-tourismus__item li:hover,
+.col-md-4.news-Kultur__item li:hover,
+.col-md-4.news-actual__item li:hover,
+.col-md-4.news-Lifestyle__item li:hover,
+.col-md-4.news-economy__item li:hover,
+.col-md-4.news-Shopping__item li:hover{
+	text-decoration: underline;
+}

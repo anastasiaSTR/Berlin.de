@@ -1,0 +1,24 @@
+.row.berlin-actual .col-md-4 img{
+	width: 200px;
+	padding-top:5px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.row.aside-news h6{
+	font-weight: bold;
+	color: $bgBlueTextBold;
+}
+
+.row.aside-news .news-list li{
+	color: $bgBlueTextLight ;
+	padding-bottom: 10px;
+}
+
+.berlin-actual__item{
+	padding-bottom: 10px;
+}
+
+.row.aside-news .news-list i{
+	color: $bgRed
+}

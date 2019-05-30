@@ -1,0 +1,14 @@
+
+.row.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: $bgLightGrey;
+	width: 100%;
+	margin-left:0px;
+	height: 30px;
+}
+
+.row.nav p{
+	@include font-nav;
+}

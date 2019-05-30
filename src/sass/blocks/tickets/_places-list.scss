@@ -1,0 +1,23 @@
+.section-theatre__photo{
+	width: 100%;
+	padding:5px;
+	padding-right: 0px;
+}
+
+.list__title{
+	padding-top: 20px;
+	@include title-h6;
+}
+
+.list_content{
+	@include font-content-black;
+	margin-top: -20px;
+}
+
+.section__title{
+	padding-top: 20px;
+	@include title-h6;
+	font-size: 18px;
+	padding-left: 30px;
+} 
+

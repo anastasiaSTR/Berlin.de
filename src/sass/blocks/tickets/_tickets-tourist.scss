@@ -1,0 +1,37 @@
+.photo-mini-ticket{
+	width: 120px;
+	float:left;
+	padding-right:20px;
+	padding-bottom:20px;
+}
+
+.row.top{
+	margin-top: 40px;
+
+}
+
+.row.top p{
+	@include font-content-black;
+}
+
+
+
+.photo-mini{
+	width: 100px;
+}
+
+.photo-mini-content{
+	@include font-content-black;
+	margin-top: -20px;
+}
+
+.photo-mini-title{
+	@include title-h6;
+}
+
+figcaption{
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 10px;
+	color: #2D2A2A;
+}

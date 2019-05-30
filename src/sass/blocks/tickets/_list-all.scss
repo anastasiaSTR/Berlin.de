@@ -1,0 +1,27 @@
+.news-list-title{
+		@include title-h6;
+		font-size: 18px;
+		padding-top: 20px;
+}
+
+.news-list__item{
+	@include font-category-small;
+	display: inline-block;
+
+}
+
+.news-list i,{
+	display: inline-block;
+	color:$bgRed;
+	text-align: left;
+}
+
+
+.news-list{
+	margin-top:-20px;
+	width: 350px;
+}
+
+.news-list:nth-child(2){
+	width: 300px;
+}

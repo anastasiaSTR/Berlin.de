@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	background-color: white;
+	margin-left: 110px;
+	margin-right: 110px;
+	margin-top: 20px;
+	width: 80%;
+}
+
+body{
+	background-color: #F5F0F0;
+}
+
+.row.aside-news{
+	margin-top:50px;
+}
+
+.col-md-4.right{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+li, p{
+	line-height: 1.2;
+}
+
+
+.link{
+	@include font-link;
+}

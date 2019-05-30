@@ -1,0 +1,32 @@
+.row.section {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+	position: relative;
+}
+
+.section__item{
+	flex:1;
+	margin-left: 0px;
+
+}
+
+.section__icons{
+	flex: 0.2;
+	margin-left: 0px;
+}
+
+.section__item a{
+	@include font-way;
+}
+
+.section__item i{
+	color:#0E3162;
+	font-size: 12px;
+}
+
+
+.fas.fa-home{
+	color:#0E3162;
+}

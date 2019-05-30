@@ -1,0 +1,94 @@
+.header__strip{
+	display: flex;
+	position: relative;
+	flex-direction: row; 
+	width: 100%;
+	height: 5px;
+	justify-content: flex-start;
+}
+
+.header__strip--blue{
+flex:3;
+background-color: #28076E;
+position: relative;
+width: 90%;
+
+}
+
+.header__strip--red{
+flex:1;
+background-color: #B70B12;
+width: 10%;
+}
+
+
+.row.header{
+ width: 100%;
+ height: 60px;
+  background-color: #AACEE4;
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.header{
+	position: relative;
+	margin-left: -15px;
+	margin-right: -15px;
+
+}
+
+.header__image{
+	flex:1;
+}
+
+.header__title{
+	flex:4;
+	padding-right: 50px;
+}
+
+.header__search{
+	flex:1;
+}
+
+.header__maps{
+	flex:0.5;
+}
+
+
+.header__language{
+	flex:0.5;
+	border-left: 1px solid black;
+}
+
+.header__search input{
+	width: 150px;
+	
+}
+
+.header__search .header-search-icons{
+	display: inline-block;
+	top:3px;
+	left:140px;
+	position: absolute;
+}
+
+.fa-search{
+	color: grey;
+	width: 2px;
+
+}
+
+.row.header p{
+	@include font-nav;
+}
+
+
+.header__language-list{
+	display: none;
+}
+.header__language>a:hover .header__language-list{
+	display: block;
+}

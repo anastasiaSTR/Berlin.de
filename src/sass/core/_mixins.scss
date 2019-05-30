@@ -1,0 +1,68 @@
+@mixin font-nav{
+	font-family: sans-serif;
+	font-size: 15px;
+	color: #2B3DA1;
+
+}
+
+@mixin font-title{
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size:18px;
+	color:$bgRed;
+	margin-bottom: 25px;
+}
+
+@mixin font-news-category{
+	font-family: sans-serif;
+	font-size: 16px;
+	border-bottom: 2px solid #DEE3E3 ;
+	color:#394DC6;
+	padding-top: 13px;
+	padding-bottom: 13px;
+
+}
+
+@mixin font-category-small{
+	font-family: sans-serif;
+	font-size: 14px;
+	color:#394DC6;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+@mixin title-h6{
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size:15px;
+	color:$bgBlueTextBold;
+	margin-bottom: 25px;
+}
+
+@mixin title-footer{
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size:14px;
+	color:$bgLightGrey;
+	margin-bottom: 15px;
+}
+
+@mixin font-way{
+	font-family: sans-serif;
+	font-size:14px;
+	color:#2B3DA1;;
+	margin-bottom: 15px;
+}
+
+@mixin font-content-black{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: black;
+
+}
+
+@mixin font-link{
+	font-family: sans-serif;
+	font-size:14px;
+	color:#394DC6;
+}

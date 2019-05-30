@@ -1,0 +1,84 @@
+.nav.nav-tabs{
+	width: 330px;
+	margin-left: -15px;
+}
+
+.nav-link{
+    width: 110px;
+	height: 50px;
+	background-color: $bgBlue;
+	font-family: sans-serif;
+	color: $bgLightGrey;
+	padding-top: 15px;
+}
+
+
+
+
+
+.tab-pane{
+	width: 330px;
+	height: 275px;
+	background-color: $bgBlue;
+	margin-left: -15px;
+	padding-top: 20px;
+}
+
+
+.icon__item{
+	height: 120px;
+	display: flex;
+	align-items: center;
+}
+
+.icon__item > a > i{
+	font-size: 40px;
+	color: $bgLightGrey;
+	margin-bottom: 10px;
+	text-align: center;
+
+}
+
+.icon__item > a p{
+	color: $bgLightGrey;
+	font-family: sans-serif;
+
+}
+
+
+.icon__item > a p:hover{
+	text-decoration: underline;
+}
+
+div.row.icon{
+	margin-left: 10px;
+}
+
+.tab-pane:nth-child(3) p{
+	margin-left: 20px;
+	font-family: sans-serif;
+	color: $bgLightGrey;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.tab-pane:nth-child(2) button,
+.tab-pane:nth-child(2) h6,
+.tab-pane:nth-child(2) p,{
+	margin-left: 20px;
+	font-family: sans-serif;
+	color: $bgLightGrey;
+	font-size: 14px;
+	padding-bottom: 10px;
+
+}
+
+.tab-pane:nth-child(2) button{
+	color: $bgBlue;
+	width: 90%;
+	height: 25px;
+}
+
+.tab-pane:nth-child(2) h6{
+	font-weight: bold;
+}

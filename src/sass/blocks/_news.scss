@@ -1,0 +1,41 @@
+.col-md-4.news-politics__item .news-Berlin__list li,
+.col-md-4.news-Lifestyle__item .news-Berlin__list li{
+	@include font-category-small;
+	border:0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.col-md-4.news-politics__item .news-Berlin__list i,
+.col-md-4.news-Lifestyle__item .news-Berlin__list i{
+	color:$bgRed;
+}
+
+.col-md-4.news-politics__item .news-Berlin__list li:hover,
+.col-md-4.news-Lifestyle__item .news-Berlin__list li:hover{
+	text-decoration: underline;
+}
+
+.col-md-4.news-politics__item  p + a{
+ color:$bgBlueTextLight;
+}
+
+.col-md-4.news-politics__item p{
+	line-height: 1.4s;
+		font-family: sans-serif;
+		font-size:14px;
+		display: inline-block;
+		width: auto;
+
+} 
+
+.col-md-4.news-politics__item h6{
+	@include title-h6;
+	padding-top: 15px;
+}
+
+
+.country-list a li {
+	display: flex;
+	flex-direction: row;
+}

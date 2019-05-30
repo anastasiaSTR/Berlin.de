@@ -1,0 +1,15 @@
+.help__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.help__user a, .help__user p {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }

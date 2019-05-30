@@ -1,0 +1,26 @@
+.news-category__item__photo {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+figcaption h6,{
+	@include title-h6;
+	color:$bgBlueTextLight
+}
+
+figcaption p{
+	line-height: 1.4s;
+		font-family: sans-serif;
+		font-size:14px;
+		display: inline-block;
+		width: auto;
+
+}
+
+figcaption p + a{
+	display: inline-block;
+	width: auto;
+	color:$bgBlueTextLight;
+	padding-left: 0px;
+	padding-bottom: 10px;
+}

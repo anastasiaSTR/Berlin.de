@@ -1,0 +1,21 @@
+
+
+.section-activity__photo{
+	width: 100%;
+}
+
+.section-activity__title{
+	@include title-h6;
+}
+
+.section-activity_content{
+	@include font-content-black;
+}
+
+.section-activity_content{
+	margin-top: -20px;
+}
+
+.row.section-activity--top{
+	margin-top: 100px;
+}

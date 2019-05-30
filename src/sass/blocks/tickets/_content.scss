@@ -1,0 +1,28 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.col-md-4.right{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+li, p{
+	line-height: 1.2;
+}
+
+body{
+	background-color: #F5F0F0 !important;
+}
+
+.container{
+	margin-left: 110px !important;
+	margin-right: 110px !important;
+	margin-top: 20px !important;
+	width: 80% !important;
+}
+
+.link{
+	@include font-link;
+}

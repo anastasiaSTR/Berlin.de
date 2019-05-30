@@ -1,0 +1,28 @@
+ul .news-time__list__item{
+	@include font-news-category;
+	font-size: 14px;
+	line-height:1.4;
+	color:black;
+	display: inline-block;
+	height: 70px;
+
+}
+
+ul .news-event__list__item{
+	@include font-news-category;
+	font-size: 14px;
+	line-height:1.4;
+	display: inline-block;
+	height: 70px;
+}
+
+.text--right{
+	text-align: right;
+	color:$bgBlueTextLight;
+	font-size: 13px;
+}
+
+
+ul .news-event__list__item:hover{
+	text-decoration: underline;
+}

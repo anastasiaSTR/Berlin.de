@@ -1,169 +1,294 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
 	<meta charset="UTF-8">
 	<title>BerlinFinder – Adressen, Shops und Dienstleister - Berlin.de</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="lips/fontawersome/all.min.css">
+	<link rel="stylesheet" href="../src/sass/main.css">
+
 </head>
 <body>
-	<header>
-		<div class="container-fluid">
-			<div class="row header">
-				<div class="col-lg-2 header__image">
+	<div class="container">
+		<header class="header">
+	
 
+				<div class="header__strip">
+					<div class="header__strip--blue"></div>
+					<div class="header__strip--red"></div>
 				</div>
-				<div class="col-lg-2 header__title">
+
+			<div class="row header">
+				<div class="col-md-2 header__image">
+                   <img src="images/logo.svg" alt="Berlin.de">
+				</div>
+
+				<div class="col-md-5 header__title">
 					<p>Das offizielle Hauptstadtportal</p>
 				</div>
-				<div class="col-lg-2 header__search">
+
+				<div class="col-md-2 header__search">
 					<input type="text" placeholder="Suchbegriff">
-					<div class="header-search-icons">
-						
-					</div>
+					    <div class="header-search-icons">
+					    	<i class="fas fa-search"></i>					
+					    </div>
 				</div>
-				<div class="col-lg-2 header__maps">
-					<p>Stadtplan</p>
+
+				<div class="col-md-1 header__maps">
+					<a href="#"><p>Stadtplan</p></a>
 				</div>
-				<div class="col-lg-2 header__language">
-				    <a href="#">DE</a>
-				    						<ul class="header__language-list">
-				    							<a href="#"><li>Deutsch DE</li></a>
-				    							<a href="#"><li>English EN</li></a>
-				    							<a href="#"><li>Français FR</li></a>
-				    							<a href="#"><li>Italiano IT</li></a>
-				    							<a href="#"><li>中文 CN</li></a>
-				    							<a href="#"><li>Polski PL</li></a>
-				    							<a href="#"><li>русский RU</li></a>
-				    							<a href="#"><li>Türkçe TR</li></a>
-				    						</ul>
+
+				<div class="col-md-2 header__language">
+				    <div class="form">
+					<form action="">
+						<select name="" id="">
+							<option value=""><a href="#">DE</a></option>
+							<option value=""><a href="#">English EN</a></option>
+							<option value=""><a href="#">Français FR</a></option>
+							<option value=""><a href="#">Italiano IT</a></option>
+							<option value=""><a href="#">中文 CN</a></option>
+							<option value=""><a href="#">Polski PL></a></option>
+							<option value=""><a href="#">русский RU</a></option>
+							<option value=""><a href="#">Türkçe TR</a></option>
+						</select>
+					</form>
+				</div>
+
 				    										
 				</div>
 			</div>
-		</div>
 
 
-			<div class="row header__section">
 
-			<div class="col-lg-2 header__section__item">
+		  <div class="row nav">
+
+			<div class="col-md-3 nav__item">
 				<a href="#">
 					<p>Politik, Verwaltung, Bürger</p>
 				</a>
 			</div>
-			<div class="col-lg-2 header__section__item">
+			<div class="col-md-3 nav__item">
 				<a href="#">
 					<p>Kultur & Ausgehen</p>
 				</a>
 			</div>
-			<div class="col-lg-2 header__section__item">
+			<div class="col-md-1 nav__item">
 				<a href="#">
 					<p>Tourismus</p>
 				</a>
 			</div>
-			<div class="col-lg-2 header__section__item">
+			<div class="col-md-1 nav__item">
 				<a href="#">
 					<p>Wirtschaft</p>
 				</a>
 			</div>
-			<div class="col-lg-2 header__section__item">
+			<div class="col-md-1 nav__item">
 				<a href="#">
 					<p>Lifestyle</p>
 				</a>
 			</div>
-			<div class="col-lg-2 header__section__item">
+			<div class="col-md-2 nav__item">
 				<a href="#">
 					<p>BerlinFinder</p>
 				</a>
 			</div>
-		    </div>
+			<div class="col-md-1 nav__item">
+				<a href="#">
+					<i class="fas fa-list-ul"></i>
+				</a>
+			</div>
+		   </div>
+
 	
 	</header>
 
 
 
 	<main>
-		<div class="container-fluid">
 			<div class="row aside">
-				<div class="col-lg-8 aside__item"></div>
-				<div class="col-lg-4 aside__item">
-					<ul>
-						<a href="#">
-							<li class="aside__item__service">Service</li>
-						</a>
-						<a href="#">
-							<li class="aside__item__Berlin-Mail">Berlin-Mail</li>
-						</a>
-						<a href="#">
-							<li class="aside__item__Über-uns">Über uns</li>
-						</a>
-					</ul>
+				<div class="col-md-8 aside__item">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/klassenfahrt_berlin_bus.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slide2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slide3.jpg" class="d-block w-100" alt="...">
+    </div>
+        <div class="carousel-item">
+      <img src="images/slide4.jpg" class="d-block w-100" alt="...">
+    </div>
+        <div class="carousel-item">
+      <img src="images/slide5.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>					
 				</div>
-			</div>
 
-<!-- Контейнер флюид ниже должен лежать в одной строке без переноса на другую -->
+				<div class="col-md-4 aside__item">
 
-         <div class="container-fluid aside">
+
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                       <li class="nav-item">
+                           <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Service</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Berlin-Mail</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Über uns</a>
+                       </li>
+                    </ul>
+
+                   <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        	
+                               <div class="row icon">
+                    	<div class="col-md-4 icon__item">
+                    		<a href="#">
+                    			<i class="fas fa-map-marker-alt"></i>
+                    			<p>Stadtplan</p>
+                    		</a>
+                    	</div>
+                    	<div class="col-md-4 icon__item">
+                    		<a href="#">
+                    			<i class="fas fa-car-side"></i>
+                    				<p>Not­dienste</p>
+                    		</a>
+                    	</div>
+                    	<div class="col-md-4 icon__item">
+                    		<a href="#">
+                    			<i class="fas fa-archway"></i>
+                    			<p>Service­portal</p>
+                    		</a>
+                    	</div>
+                    </div>
+
+                    <div class="row icon">
+                    	<div class="col-md-4 icon__item">
+                    		<a href="#">
+                    			<i class="fas fa-bed"></i>
+                    			<p>Hotels</p>
+                    		</a>
+                    	</div>
+                    	<div class="col-md-4 icon__item">
+                    		<a href="#">
+                    			<i class="fas fa-cloud"></i>
+                    			<p>Verkehr</p>
+                    		</a>
+                    	</div>
+                    	<div class="col-md-4 icon__item">
+                    		<a href="#">
+                    			<i class="fas fa-cloud"></i>
+                    			<p>Wetter</p>
+                    		</a>
+                    	</div>
+                    </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        	                        	
+                     	       <h6>Berlin–Mail</h6>
+                     	       <p>Um Ihre Privatsphäre optimal zu schützen, nutzen Sie bitte die direkte Anmeldung an Ihr Mail–Konto:</p>
+                     	       <button>Zum E-Mail-login</button>
+                     	       <p>Ihre persönliche E-Mail-Adresse: Ihr.Name@berlin.de.</p>
+                     	       <button>Jetzt registrieren</button>                     
+                            
+
+                        </div>
+
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        	    <p>Berlin de ist das offizielle Hauptstadtportal des Landes Berlin. Die Angebote des Landes finden Sie im Themenbereich „Politik, Verwaltung, Bürger“.</p>
+                    	       <p>Der Bereich „Wirtschaft“ wird gemeinsam vom Land und der privaten Betreibergesellschaft BerlinOnline gestaltet. Die übrigen Themenbereiche werden durch BerlinOnline betreut.</p>
+                    	       <p>Die Inhalte des Landes und der Bezirke sind mit dem beBerlin-Logo und einer blauen Line mit Amplitude gekennzeichnet:</p>
+                    	       <p>Weitere Hinweise finden Sie in unserem Impressum. Technische Hilfe finden Sie hier</p>
+
+
+                        </div>
+                   </div>
+
+				</div>
+			    </div>
+       
+
 			<div class="row aside-news">
-				<div class="col-lg-8">
+				<div class="col-md-8">
 					<h6 class="title-actual">Berlin Aktuell</h6>
+					     <div class="block--grey"></div>
 
 
- <!-- Ниже ,это контейнер флюид внутри другого , разделенный на 4 столбика -->
+                         <div class="row berlin-actual">
+						       <div class="col-md-4">
 
-                   <div class="container-fluid">
-                          <div class="row berlin-actual">
-						       <div class="col-lg-4">
+									<a href="#">
+										<h6 class="berlin-actual__item">Halvorsen im Rathaus</h6>
+									</a>
+									<a href="#">
+										<img src="images/image1.jpg" alt="">
+									</a>
 
-									<a href="#"><h6 class="berlin-actual__item">Halvorsen im Rathaus</h6></a>
-										<img src="images/image1.jpg" alt=""></img>
+									<figcaption>
+										<p>Regierender empfing Airlift-Veteran.</p><a href="#">mehr</a>
+
+										
+									</figcaption>
+							   </div>
+
+								<div class="col-md-4">						
+									    <a href="#">
+										    <h6 class="berlin-actual__item">Nachrichten</h6>
+									    </a>
+									    <ul class="news-list">
+									      
+										    <a href="#">
+											   <li class="news-list__item">
+											   	<i class="fas fa-chevron-right"></i>Hertha gewinnt in Augsburg mit 4:3</li>
+										    </a>
+										   
+										    <a href="#">
+											   <li class="news-list__item">
+											   	<i class="fas fa-chevron-right"></i>BSR warnt vor Sperrmüll-Betrügern</li>
+										    </a>
+										   
+										    <a href="#">
+											   
+											   <li class="news-list__item"><i class="fas fa-chevron-right"></i>Friedrichstraße könnte tageweise autofrei werden</li>
+										    </a>
+									    </ul>
+								</div>
+
+								<div class="col-md-4">
+									<a href="#">
+										<h6 class="berlin-actual__item">Fotos</h6>
+									</a>
+									<a href="#">
+										<img src="images/image2.jpg" alt="">
 									</a>
 									<figcaption>
-										<p>Regierender empfing Airlift-Veteran.</p>
-										<a href="#">mehr</a>
+										<p>Prinz Charles und Camilla.
+										<a href="#" class="link">mehr</a></p>
 									</figcaption>
 								</div>
-
-								<div class="col-lg-4">									
-									<a href="#"><h6 class="berlin-actual__item">Nachrichten</h6></a>
-									<ul class="news-list">
-										<a href="#">
-											<li class="news-list__item">Hertha gewinnt in Augsburg mit 4:3</li>
-										</a>
-										<a href="#">
-											<li class="news-list__item">BSR warnt vor Sperrmüll-Betrügern</li>
-										</a>
-										<a href="#">
-											<li class="news-list__item">Friedrichstraße könnte tageweise autofrei werden</li>
-										</a>
-									</ul>
-								</div>
-
-								<div class="col-lg-4">
-									<a href="#"><h6 class="berlin-actual__item">Fotos</h6></a>
-										<img src="images/image2.jpg" alt=""></img>
-									</a>
-									<figcaption>
-										<p>Prinz Charles und Camilla.</p>
-										<a href="#">mehr</a>
-									</figcaption>
-								</div>
-                         </div>
-							</div>
+                        </div>
+				</div>
 
 
-						</div>
-						</div>
-
-<!-- Тут заканчивается внутренний контейнер -->
-
-
-
-				<div class="col-lg-4">
-							<h6 class="title-real-estate">Immobiliensuche</h6>
-				
-					<div>
-						<form action="">
+				<div class="col-md-4 form">
+					<h6 class="title-real-estate">Immobiliensuche</h6>
+				<div class="cont">
+				 <div class="form">
+					<form action="">
 						<select name="" id="">
 							<option value="">alle Bezirke</option>
 							<option value="">Charlottenburg</option>
@@ -186,39 +311,42 @@
 							<option value="">Tiergarten</option>
 							<option value="">Treplow</option>
 						</select>
-
-
-					   <select name="" id="">
-					   	<option value="">Mietwohnungen</option>
-					   	<option value="">Elgentumswohnungen</option>
-					   	<option value="">Hauser mieten</option>
-					   	<option value="">Hauser kaufen</option>
-					   	<option value="">Fertig- & Massivhauser</option>
-					   </select>
 					</form>
-					</div>
+				</div>
 
-					<button></button>
+                <div>
+                	<form>
+					    <select name="" id="">
+					   	   <option value="">Mietwohnungen</option>
+					   	   <option value="">Emdentumswohnungen</option>
+					   	   <option value="">Hauser mieten</option>
+					   	   <option value="">Hauser kaufen</option>
+					       <option value="">Fertig- & Massivhauser</option>
+					   </select>
+					   <br>
+
+
+				<button>SUCHEN</button>
 
 					<a href="#">
 						<p>Felder Ioschen</p>
 					</a>
+					</form>
+				  </div>
+				</div>
+            </div>
+            </div>
 
-                </div>
-				</div>
-					</div>
-				</div>
-			</div>
 
 
 			<div class="logo">
-				<img src="images/amplitude_2px_a.svg" alt="Berlin_logo">
+				<img src="images/Berlin_logo.svg" alt="Berlin_logo">
 			</div>
 
-			<div class="container-fluid news-politics">
+			<div class="news-politics">
 				<h6 class="title">Politik, Verwaltung, Bürger</h6>
 				<div class="row">
-					<div class="col-lg-4" news-politics__item>
+					<div class="col-md-4 news-politics__item">
 						<ul class="news-politics__list">
 							<a href="#">
 								<li class="news-politics__list__item">Pressemitteilungen</li>
@@ -269,24 +397,24 @@
 
 						</ul>
 					</div>
-					<div class="col-lg-4" news-politics__item>
-												<img src="images/image3.jpg" alt="" class="news-politics__item__photo">
+					<div class="col-md-4 news-politics__item">
+												<img src="images/image3.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#"><h6>Die Bilder: 70 Jahre Luftbrücke</h6></a>
-									<p>Berlin feierte das Jubiläum mit großem Fest auf dem früheren Flughafen Tempelhof. Fotos und</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Berlin feierte das Jubiläum mit großem Fest auf dem früheren Flughafen Tempelhof. Fotos und
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 
 													<ul class="news-Berlin__list">
-							<i class="fas fa-chevron-right"></i>
+							
 							<a href="#">
 								<li class="news-Berlin__list__item">Richtlinien der Regierungspolitik</li>
 							</a>						
 
-							<i class="fas fa-chevron-right"></i>
+							
 							<a href="#">
+								<i class="fas fa-chevron-right"></i>
 								<li class="news-Berlin__list__item">Halbzeitbilanz - Senat hat entscheidende Weichen gestellt</li>
 							</a>							
 
@@ -322,41 +450,38 @@
 
 						</ul>
 					</div>
-					<div class="col-lg-4" news-politics__item>
+					<div class="col-md-4 news-politics__item">
 
 						<a href="#">
 							<h6 class="news-politics__item__title">Einladung zum PopUp der Stadtwerkstatt auf dem Molkenmarkt.</h6>
 						</a>
-							<p>Neues Europa-Parlament: Aktuelle Informationen zur Wahl in Berlin</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+							<p>Neues Europa-Parlament: Aktuelle Informationen zur Wahl in Berlin
+							<a href="#" class="link">mehr</a>
+						</p>
 
 						<a href="#">
 							<h6 class="news-politics__item__title">Bürgerdialog zum „Panke-Trail“</h6>
 						</a>
-							<p>Radschnellverbindung führt 18 Kilometer von Karow nach Mitte</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+							<p>Radschnellverbindung führt 18 Kilometer von Karow nach Mitte
+							<a href="#" class="link">mehr</a>
+						</p>
 
 						<a href="#">
 							<h6 class="news-politics__item__title">„Bündnis für den Radverkehr“</h6>
 						</a>
-							<p>Mobilitätsgesetz: Gremium beschleunigt neue Radinfrastruktur.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+							<p>Mobilitätsgesetz: Gremium beschleunigt neue Radinfrastruktur.
+							<a href="#" class="link">mehr</a>
+						</p>
 
 
-						<img src="images/image4.jpg" alt="" class="news-politics__item__photo">
+						<img src="images/image4.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
-									<h6 class="news-politics__item__title">26. Mai Europawahl</h6></a>
-									<p>Neues Europa-Parlament: Aktuelle Informationen zur Wahl in Berlin</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<h6 class="news-politics__item__title">26. Mai Europawahl</h6>
+								</a>
+									<p>Neues Europa-Parlament: Aktuelle Informationen zur Wahl in Berlin
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 
 							<p class="copyrighted">©Land Berlin</p>
@@ -367,19 +492,16 @@
 
 
 
-
-
-
 			<h6 class="title">Tourismus & Hotels</h6>
 				<div class="row news-Tourismus">
-					<div class="col-lg-4" news-politics__item>
+					<div class="col-md-4 news-tourismus__item">
 						<ul class="news-Tourismus__list">
 							<a href="#">
 								<li class="news-Tourismus__list__item">Hotels in Berlin</li>
 							</a>
 							<i class="fas fa-chevron-right"></i>
 
-							<a href="#">
+							<a href="#"> 
 								<li class="news-Tourismus__list__item">Termine des RegiSehenswürdigkeiten</li>
 							</a>
 							<i class="fas fa-chevron-right"></i>
@@ -413,53 +535,50 @@
 
 						</ul>
 					</div>
-					<div class="col-lg-4" news-Tourismus__item>
+					<div class="col-md-4" news-Tourismus__item>
 
-								<img src="images/image5.jpg" alt="" class="news-Tourismus__item__photo">
+								<img src="images/image5.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Hop-on Hop-off Tour mit 24h-Ticket</h6>
 								</a>
-									<p>Entdecken Sie 24 Stunden lang die wichtigsten Sehenswürdigkeiten Berlins per Hop-on Hop-off-Bustour.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Entdecken Sie 24 Stunden lang die wichtigsten Sehenswürdigkeiten Berlins per Hop-on Hop-off-Bustour.
+									<a href="#" class="link">mehr</a>
+								</p>
+
 							</figcaption>
 
-								<img src="images/image6.jpg" alt="" class="news-Tourismus__item__photo">
+								<img src="images/image6.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Berlin Touristen Cards: Welche ist am besten?</h6>
 								</a>
-									<p>Ein Vergleich zeigt: Mit der Wahl der richtigen Touristen Card können Besucher in Berlin viel Geld sparen.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Ein Vergleich zeigt: Mit der Wahl der richtigen Touristen Card können Besucher in Berlin viel Geld sparen.
+									<a href="#" class="link">mehr</a></p>
+
 							</figcaption>
 					</div>
 
-					<div class="col-lg-4" news-Tourismus__item>
+					<div class="col-md-4 news-Tourismus__item">
 
-						<img src="images/image7.jpg" alt="" class="news-Tourismus__item__photo">
+						<img src="images/image7.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Historische Stadtrundfahrt</h6>
 								</a>
-									<p>Viel Berlin in kurzer Zeit: Die Stadtrundfahrt per Schiff zeigt Ihnen die Sehenswürdigkeiten im Herzen der Stadt.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Viel Berlin in kurzer Zeit: Die Stadtrundfahrt per Schiff zeigt Ihnen die Sehenswürdigkeiten im Herzen der Stadt.
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 
-						<img src="images/image8.jpg" alt="" class="news-Tourismus__item__photo">
+						<img src="images/image8.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Das neue Show-Erlebnis!</h6>
 								</a>
-									<p>Diese Blue Man Group gibt es nur in Berlin! Jetzt noch länger, noch überraschender und noch näher dran!</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Diese Blue Man Group gibt es nur in Berlin! Jetzt noch länger, noch überraschender und noch näher dran!
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 
 						
@@ -469,7 +588,7 @@
 
 							<h6 class="title">Kultur & Ausgehen</h6>
 				<div class="row news-Kultur">
-					<div class="col-lg-4" news-Kultur__item>
+					<div class="col-md-4 news-Kultur__item">
 						<ul class="news-Kultur__list">
 							<a href="#">
 								<li class="news-Kultur__list__item">Event-Highlights</li>
@@ -510,55 +629,51 @@
 
 						</ul>
 					</div>
-					<div class="col-lg-4" news-Kultur__item>
+					<div class="col-md-4 news-Kultur__item">
 
-								<img src="images/image9.jpg" alt="" class="news-Tourismus__item__photo">
+								<img src="images/image9.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Picasso. Das späte Werk.</h6>
 								</a>
 								<p class="news-Kultur__item__time">09. März bis 16. Juni 2019</p>
-									<p>Das Museum Barberini zeigt ab März 2019 die Ausstellung «Picasso. Das späte Werk. Aus der Sammlung Jacqueline Picasso»</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Das Museum Barberini zeigt ab März 2019 die Ausstellung «Picasso. Das späte Werk. Aus der Sammlung Jacqueline Picasso»
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 
-								<img src="images/image10.jpg" alt="" class="news-Tourismus__item__photo">
+								<img src="images/image10.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Special: Exit Games</h6>
 								</a>
-									<p>Bei den Berliner «Live Escape Games» oder auch «Exit Games» müssen sich die Mitspieler unter Zeitdruck aus einer Abenteuerwelt befreien.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Bei den Berliner «Live Escape Games» oder auch «Exit Games» müssen sich die Mitspieler unter Zeitdruck aus einer Abenteuerwelt befreien.
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 					</div>
 
-					<div class="col-lg-4" news-Kultur__item>
+					<div class="col-md-4" news-Kultur__item>
 
-						<img src="images/image11.jpg" alt="" class="news-Tourismus__item__photo">
+						<img src="images/image11.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Berliner Theatertreffen</h6>
 								</a>
 								  <p class="news-Kultur__item__time">03. bis 19. Mai 2019</p>
-									<p>Jedes Jahr im Mai versammelt das bedeutendste deutsche Theaterfestival Theaterschaffende, Journalisten und Gäste aus der ganzen Welt in Berlin</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Jedes Jahr im Mai versammelt das bedeutendste deutsche Theaterfestival Theaterschaffende, Journalisten und Gäste aus der ganzen Welt in Berlin
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 
-						<img src="images/image12.jpg" alt="" class="news-Tourismus__item__photo">
+						<img src="images/image12.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Mamma Mia!</h6>
 								</a>
-									<p>Erleben Sie die größten Hits von ABBA in einem mitreißenden Musical das Sie aus dem Alltag entführen wird.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Erleben Sie die größten Hits von ABBA in einem mitreißenden Musical das Sie aus dem Alltag entführen wird.
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 			</div>
 		</div>
@@ -566,7 +681,7 @@
              <h6 class="title">Aktuelle Nachrichten</h6>
         <div class="row news-actual">
 
-        	<div class="col-lg-4">
+        	<div class="col-md-4 news-actual__item">
         		<ul class="news-actual__list">
 							<a href="#">
 								<li class="news-actual__list__item">Aktuelle Nachrichten</li>
@@ -595,139 +710,126 @@
 				</ul>
         	</div>
 
-        	<div class="col-lg-4">
+        	<div class="col-md-4">
 
-             <div class="row">
-             	<div class="col-lg-3">
+        <div class="row">
+             <div class="col-md-4">
              		
-             		        		<ul class="news-police-time__list">
+             		    <ul class="news-time__list">
 							<a href="#">
-								<li class="news-police-time__list__item">13. Mai
-18:46 Uhr</li>
+								<li class="news-time__list__item">13. Mai 18:46 Uhr</li>
 							</a>
 							
 
 							<a href="#">
-								<li class="news-police-time__list__item">13. Mai
-18:35 Uhr</li>
+								<li class="news-time__list__item">13. Mai 18:35 Uhr</li>
 							</a>
 						
 							<a href="#">
-								<li class="news-police-time__list__item">13. Mai
-12:14 Uhr</li>
+								<li class="news-time__list__item">13. Mai 12:14 Uhr</li>
 							</a>
 
 							<a href="#">
-								<li class="news-police-time__list__item">13. Mai
-12:07 Uhr</li>
+								<li class="news-time__list__item">13. Mai 12:07 Uhr</li>
 							</a>
 	
 							<a href="#">
-								<li class="news-police-time__list__item">13. Mai
-11:30 Uhr</li>
+								<li class="news-time__list__item">13. Mai 11:30 Uhr</li>
 							</a>
 
-				</ul>
-
-				</ul>
-
-             	</div>
-             	<div class="col-lg-9">
-             		             		
-             		        		<ul class="news-police-time__list">
-							<a href="#">
-								<li class="news-police__list__item">Lebensgefährlich verletzte Radfahrerin</li>
-							</a>
-							
-
-							<a href="#">
-								<li class="news-police__list__item">Motorradfahrer schwer verletzt</li>
-							</a>
-						
-							<a href="#">
-								<li class="news-police__list__item">Flucht statt Kontrolle</li>
-							</a>
-
-							<a href="#">
-								<li class="news-police__list__item">Barfuß durch die Nacht</li>
-							</a>
-	
-							<a href="#">
-								<li class="news-police__list__item">Nach versuchtem Totschlag – Tatverdächtige mit Bildern gesucht</li>
-							</a>
-
-				</ul>
-				 <a href="#">
-				 	<p>Alle anzeigen</p>
-				 </a>
-             	</div>
+				         </ul>
              </div>
 
-				</ul>
-
-        	</div>
-        	<div class="col-lg-4">
-        		<div class="row">
-        		<div class="col-lg-3">
-             		
-             		        		<ul class="news-DPA-time__list">
+             <div class="col-md-8">
+             		             		
+             		     <ul class="news-event-time__list">
 							<a href="#">
-								<li class="news-DPA-time__list__item">13. Mai
-22:00 Uhr</li>
+								<li class="news-event__list__item">Lebensgefährlich verletzte Radfahrerin</li>
 							</a>
 							
 
 							<a href="#">
-								<li class="news-DPA-time__list__item">13. Mai
-21:10 Uhr</li>
+								<li class="news-event__list__item">Motorradfahrer schwer verletzt</li>
 							</a>
 						
 							<a href="#">
-								<li class="news-DPA-time__list__item">13. Mai
-18:50 Uhr</li>
+								<li class="news-event__list__item">Flucht statt Kontrolle</li>
 							</a>
 
 							<a href="#">
-								<li class="news-DPA-time__list__item">13. Mai
-18:40 Uhr</li>
+								<li class="news-event__list__item">Barfuß durch die Nacht</li>
 							</a>
 	
 							<a href="#">
-								<li class="news-DPA-time__list__item">13. Mai
-17:50 Uhr</li>
+								<li class="news-event__list__item">Nach versuchtem Totschlag – Tatverdächtige mit Bildern gesucht</li>
+							</a>
+
+				        </ul>
+				            <a href="#">
+				 	              <p class="text--right">Alle anzeigen</p>
+				            </a>
+             </div>
+        </div>
+
+        	</div>
+
+        	<div class="col-md-4">
+        		<div class="row">
+        		<div class="col-md-3">
+             		
+             		        		<ul class="news-time__list">
+							<a href="#">
+								<li class="news-time__list__item">13. Mai 22:00 Uhr</li>
+							</a>
+							
+
+							<a href="#">
+								<li class="news-time__list__item">13. Mai 21:10 Uhr</li>
+							</a>
+						
+							<a href="#">
+								<li class="news-time__list__item">13. Mai 18:50 Uhr</li>
+							</a>
+
+							<a href="#">
+								<li class="news-time__list__item">13. Mai 18:40 Uhr</li>
+							</a>
+	
+							<a href="#">
+								<li class="news-time__list__item">13. Mai 17:50 Uhr</li>
 							</a>
 
 				            </ul>
 
              	</div>
 
-             	<div class="col-lg-9">
+             <div class="col-md-9">
              		             		
              		        		<ul class="news-DPA__list">
 							<a href="#">
-								<li class="news-DPA__list__item">Lkw erfasst Radfahrerin: Lebensgefährlich verletzt</li>
+								<li class="news-event__list__item">Lkw erfasst Radfahrerin: Lebensgefährlich verletzt</li>
 							</a>
 							
 
 							<a href="#">
-								<li class="news-DPA__list__item">Gericht: Das Erste muss NPD-Wahlwerbung nicht senden</li>
+								<li class="news-event__list__item">Gericht: Das Erste muss NPD-Wahlwerbung nicht senden</li>
 							</a>
 						
 							<a href="#">
-								<li class="news-DPA__list__item">Tafel entsetzt: Weniger Wohngeld wegen Lebensmitteln</li>
+								<li class="news-event__list__item">Tafel entsetzt: Weniger Wohngeld wegen Lebensmitteln</li>
 							</a>
 
 							<a href="#">
-								<li class="news-DPA__list__item">Rocket Internet will komplett aus HelloFresh aussteigen</li>
+								<li class="news-event__list__item">Rocket Internet will komplett aus HelloFresh aussteigen</li>
 							</a>
 	
 							<a href="#">
-								<li class="news-DPA__list__item">Müller trifft Hamburger Amtskollegen</li>
+								<li class="news-event__list__item">Müller trifft Hamburger Amtskollegen</li>
 							</a>
 
 				</ul>
 				 <a href="#">
-				 	<p>Alle anzeigen</p>
+				 	<p class="text--right">Alle anzeigen</p>
 				 </a>
              	</div>
              	</div>
@@ -738,7 +840,7 @@
 
         <h6 class="title">Lifestyle</h6>
 				<div class="row news-Lifestyle">
-					<div class="col-lg-4" news-Lifestyle__item>
+					<div class="col-md-4 news-Lifestyle__item">
 						<ul class="news-Lifestyle__list">
 							<a href="#">
 								<li class="news-Lifestyle__list__item">Gesundheit & Beauty</li>
@@ -779,45 +881,40 @@
 
 						</ul>
 					</div>
-					<div class="col-lg-4" news-Lifestyle__item>
+					<div class="col-md-4 news-Lifestyle__item">
 
-								<img src="images/image13.jpg" alt="" class="news-Lifestyle__item__photo">
+								<img src="images/image13.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Wassermelone zerlegen</h6>
 								</a>
-									<p>Das Fruchtfleisch der Wassermelone ist angenehm süß und erfrischend. Doch wie kommt man am besten ran?</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Das Fruchtfleisch der Wassermelone ist angenehm süß und erfrischend. Doch wie kommt man am besten ran?
+									<a href="#" class="link">mehr</a></p>
 							</figcaption>
 
-								<img src="images/image14.jpg" alt="" class="news-Lifestyle__item__photo">
+								<img src="images/image14.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Recht auf Finderlohn</h6>
 								</a>
-									<p>Ehrliche Finder haben auch Rechte. Doch wieviel Finderlohn steht ihnen zu und wie kommen sie an ihre Belohnung?</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Ehrliche Finder haben auch Rechte. Doch wieviel Finderlohn steht ihnen zu und wie kommen sie an ihre Belohnung?
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 					</div>
 
-					<div class="col-lg-4" news-Lifestyle__item>
+					<div class="col-md-4 news-Lifestyle__item">
 
-						<img src="images/image7.jpg" alt="" class="news-Lifestyle__item__photo">
+						<img src="images/image7.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Kalkflecken entfernen</h6>
 								</a>
-									<p>Säurehaltige Reinigungsmittel helfen am besten gegen hartnäckigen Kalk. Doch Vorsicht: Zu viel Säure kann schaden.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Säurehaltige Reinigungsmittel helfen am besten gegen hartnäckigen Kalk. Doch Vorsicht: Zu viel Säure kann schaden.
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 													<ul class="news-Berlin__list">
-							<i class="fas fa-chevron-right"></i>
 							<a href="#">
 								<li class="news-Berlin__list__item">Eventlocations</li>
 							</a>						
@@ -855,12 +952,12 @@
 
 
 			<div class="logo">
-				<img src="images/amplitude_2px_a.svg" alt="Berlin_logo">
+				<img src="images/Berlin_logo.svg" alt="Berlin_logo">
 			</div>
 
 							<h6 class="title">Wirtschaft</h6>
 				<div class="row news-economy">
-					<div class="col-lg-4" news-Kultur__item>
+					<div class="col-md-4 news-economy__item">
 						<ul class="news-economy__list">
 							<a href="#">
 								<li class="news-economy__list__item">Wirtschaftsatlas Berlin</li>
@@ -895,54 +992,49 @@
 						</ul>
 					</div>
 
-					<div class="col-lg-4" news-economy__item>
+					<div class="col-md-4" news-economy__item>
 
-								<img src="images/image16.jpg" alt="" class="news-economy__item__photo">
+								<img src="images/image16.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Gründer-Interview: Katharina Kurz</h6>
 								</a>
-									<p>Craft Beer ist im Begriff, den deutschen Biermarkt zu revolutionieren. Auch Brlo hat den Trend nach Berlin gebracht.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Craft Beer ist im Begriff, den deutschen Biermarkt zu revolutionieren. Auch Brlo hat den Trend nach Berlin gebracht.
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 
-								<img src="images/image17.jpg" alt="" class="news-economy__item__photo">
+								<img src="images/image17.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
-									<h6>Bauprojekt: Dolgensee-Center</h6>
+									<h6>Bauprojekt: Domdensee-Center</h6>
 								</a>
-									<p>Bauprojekt: Dolgensee-Center</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Bauprojekt: Domdensee-Center
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 					</div>
 
-					<div class="col-lg-4" news-economy__item>
+					<div class="col-md-4 news-economy__item">
 
-						<img src="images/image18.jpg" alt="" class="news-economy__item__photo">
+						<img src="images/image18.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Messe: Connecticum</h6>
 								</a>
 								  <p class="news-economy__item__time">14. bis 16. Mai 2019</p>
-									<p>Absolventen können sich über Praktika und Traineeprogramme informieren</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Absolventen können sich über Praktika und Traineeprogramme informieren
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 
-						<img src="images/image19.jpg" alt="" class="news-economy__item__photo">
+						<img src="images/image19.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Event-Locations in Berlin</h6>
 								</a>
-									<p>Ob Firmenevent, Produktpräsentation oder Hochzeitsfest: Berlin bietet Veranstaltungsorte in jeglicher Größe und für jeden Bedarf.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Ob Firmenevent, Produktpräsentation oder Hochzeitsfest: Berlin bietet Veranstaltungsorte in jeglicher Größe und für jeden Bedarf.
+									<a href="#" class="link">mehr</a></p>
 							</figcaption>
 			</div>
 		</div>
@@ -951,7 +1043,7 @@
 
 							<h6 class="title">Shopping</h6>
 				<div class="row news-Shopping">
-					<div class="col-lg-4" news-Shopping__item>
+					<div class="col-md-4 news-Shopping__item">
 						<ul class="news-economy__list">
 							<a href="#">
 								<li class="news-Shopping__list__item">Neueröffnungen</li>
@@ -991,64 +1083,242 @@
 						</ul>
 					</div>
 
-					<div class="col-lg-4" news-Shopping__item>
+					<div class="col-md-4 news-Shopping__item">
 
-								<img src="images/image20.jpg" alt="" class="news-Shopping__item__photo">
+								<img src="images/image20.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Neueröffnung: Sole Fresh</h6>
 								</a>
-									<p>Im Bikini Berlin hat ein Laden für die professionelle Sneakerreinigung und -aufbereitung eröffnet.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Im Bikini Berlin hat ein Laden für die professionelle Sneakerreinigung und -aufbereitung eröffnet.
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 
-								<img src="images/image21.jpg" alt="" class="news-Shopping__item__photo">
+								<img src="images/image21.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Nowkoelln Flowmarkt</h6>
 								</a>
-									<p>Keramik- und Töpferkunstmarkt</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Keramik- und Töpferkunstmarkt
+									<a href="#" class="link">mehr</a></p>
 							</figcaption>
 					</div>
 
-					<div class="col-lg-4" news-Shopping__item>
+					<div class="col-md-4 news-Shopping__item">
 
-						<img src="images/image22.jpg" alt="" class="news-Shopping__item__photo">
+						<img src="images/image22.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Keramik- und Töpferkunstmarkt</h6>
 								</a>
 								  <p class="news-Shopping__item__time">18. und 19. Mai 2019</p>
-									<p>Über 30 Meistereien bieten in den Späth'schen Baumschulen Vasen und mehr an.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Über 30 Meistereien bieten in den Späth'schen Baumschulen Vasen und mehr an.
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
 
-						<img src="images/image23.jpg" alt="" class="news-Shopping__item__photo">
+						<img src="images/image23.jpg" alt="" class="news-category__item__photo">
 							<figcaption>
 								<a href="#">
 									<h6>Antik- und Buchmarkt</h6>
 								</a>
-									<p>Rund 60 Händler bieten beim Antik- und Buchmarkt Bücher, Schallplatten, Schmuck und Möbel mit Geschichte an.</p>
-									<a href="#">
-										<p>mehr</p>
-									</a>
+									<p>Rund 60 Händler bieten beim Antik- und Buchmarkt Bücher, Schallplatten, Schmuck und Möbel mit Geschichte an.
+									<a href="#" class="link">mehr</a>
+								</p>
 							</figcaption>
-			</div>
-		</div>
+ 
+			       </div>
+
+	         </div>
+		
+	    </div>
 
 
-
-
-		</div>
 	</main>
-	<footer></footer>
+
+	<footer>
+
+			<div class="row footer__row">
+
+				<div class="col-md-4">
+					<img src="images/logo.svg" alt="">
+					   <h6>Berlin.de Newsletter</h6>
+					    
+					    <p>Die Tipps für das Wochenende und für den kommenden Monat, ausgewählt von der Berlin.de-Redaktion. Kostenlos direkt in Ihr Postfach.</p>
+					    <button>Newsletter bestellen</button>
+
+					<p>Mehr Berlin.de auf</p>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+
+				<div class="col-md-8">
+
+
+			        <a href="#">
+					  <p class="text--right">Zum Seitenanfang <i class="fas fa-chevron-up"></i></p>
+				    </a>
+
+				    <input type="text" class="search" placeholder="Suchbegriff"><i class="fas fa-search"></i>
+
+					   <div class="row row--one">
+					   	  <div class="col-md-4 footer-search">
+							<h6>Suche</h6>
+
+							<a href="#">
+                               <p сlass="footer-search__text">Tickets & Events</p>
+                            </a>
+
+                             <a href="#">
+                               <p сlass="footer-search__text">Jobs</p>
+                             </a>
+
+                             <a href="#">
+                               <p сlass="footer-search__text">Immobilien</p>
+                             </a>
+
+                             <a href="#">
+                               <p сlass="footer-search__text">Unternehmen und Dienstleister</p>
+                             </a>
+
+                             <a href="#">
+                               <p сlass="footer-search__text">Eventlocations</p>
+                             </a>							
+					    </div>
+
+					    <div class="col-md-4 footer-us" >
+							
+							<h6>Über uns</h6>
+							
+							<a href="#">
+                               <p class="footer-us__text">Kontakt</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="footer-us__text">AGB</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="footer-us__text">Impressum</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="footer-us__text">Datenschutz</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="footer-us__text">Werben auf Berlin.de</p>
+                             </a>
+                         </div>
+
+					     <div class="col-md-4 footer-politics">
+							
+							<h6>Politik & Verwaltung</h6>
+							
+							<a href="#">
+                               <p class="politics__text">Service-Portal</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="politics__text">Bürgertelefon 115</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="politics__text">Terminvereinbarung</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="politics__text">Bürgerämter</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="politics__text">Aktuelle Landespolitik</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="politics__text">Karriere beim Land Berlin</p>
+                             </a>
+                        </div>
+			        </div>
+
+			         <div class="row row--two">
+					   	  <div class="col-md-4 footer-search">
+							<h6>Berlin Top 10</h6>
+
+							<a href="#">
+                               <p сlass="footer-search__text">Tickets</p>
+                            </a>
+
+                             <a href="#">
+                               <p сlass="footer-search__text">Stadtführungen</p>
+                             </a>
+
+                             <a href="#">
+                               <p сlass="footer-search__text">Museen</p>
+                             </a>
+
+                             <a href="#">
+                               <p сlass="footer-search__text">Sehenswürdigkeiten</p>
+                             </a>
+
+                             <a href="#">
+                               <p сlass="footer-search__text">Stadtrundfahrten</p>
+                             </a>							
+					    </div>
+
+					    <div class="col-md-4 footer-us" >
+							
+							<h6>Extra</h6>
+
+                             <a href="#">
+                               <p class="footer-us__text">Berlin.de-Mail</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="footer-us__text">Gutscheine</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="footer-us__text">Gewinnspiele</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="footer-us__text">Gratis</p>
+                             </a>
+                         </div>
+
+					     <div class="col-md-4 footer-politics">
+							
+							<h6>In anderen Sprachen</h6>
+
+                             <a href="#">
+                               <p class="politics__text">English</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="politics__text">Français</p>
+                             </a>
+
+                             <a href="#">
+                               <p class="politics__text">Italiano</p>
+                             </a>
+                        </div>
+		</div>
+
+
+
+
+
+
+
+
+				</div>
+			</div>
+
+	</footer>
 
 
 
